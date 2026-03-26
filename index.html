@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samhällskunskapsprov — Förbered dig inför Sveriges samhällskunskapstest 2026</title>
+<meta name="description" content="Allt om det nya samhällskunskapsprovet för svenskt medborgarskap. 7 ämnesområden, officiellt underlag, övningsfrågor. Förbered dig redan nu.">
+<link rel="canonical" href="https://samhallskunskapsprov.se/">
+<meta property="og:title" content="Samhällskunskapsprov — Sveriges samhällskunskapstest 2026">
+<meta property="og:description" content="800 övningsfrågor i 7 ämnen. Baserat på det officiella underlaget. 499 kr engångsbetalning.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://samhallskunskapsprov.se/">
+<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{font-size:16px;-webkit-font-smoothing:antialiased;}
+body{font-family:"Lexend",system-ui,sans-serif;background:#f8f7f4;color:#0f172a;min-height:100vh;}
+a{color:inherit;}
+
+/* Header */
+.header{background:#0f172a;border-bottom:3px solid #006AA7;padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between;}
+.header-brand{display:flex;align-items:center;gap:12px;}
+.flag{width:22px;height:15px;background:#006AA7;border-radius:2px;position:relative;overflow:hidden;flex-shrink:0;}
+.flag::before{content:'';position:absolute;top:0;left:6px;width:2.5px;height:100%;background:#FECC02;}
+.flag::after{content:'';position:absolute;top:6px;left:0;width:100%;height:2.5px;background:#FECC02;}
+.header-title{font-size:.92rem;font-weight:600;color:#fff;}
+.header-sub{font-size:.68rem;color:#64748b;}
+.header-cta{font-size:.78rem;font-weight:600;color:#fff;background:#006AA7;padding:.45rem 1.1rem;border-radius:.5rem;text-decoration:none;transition:opacity .15s;}
+.header-cta:hover{opacity:.85;}
+
+/* Hero */
+.hero{max-width:800px;margin:0 auto;padding:4rem 2rem 3rem;text-align:center;}
+.hero-badge{display:inline-block;font-size:.72rem;font-weight:700;color:#006AA7;background:#e0f0fa;padding:.3rem .9rem;border-radius:2rem;margin-bottom:1.2rem;letter-spacing:.02em;text-transform:uppercase;}
+.hero h1{font-size:2.2rem;font-weight:700;letter-spacing:-.03em;line-height:1.2;margin-bottom:1rem;}
+.hero h1 span{color:#006AA7;}
+.hero-sub{font-size:1rem;color:#57534e;line-height:1.7;max-width:640px;margin:0 auto 2rem;}
+.hero-ctas{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem;}
+.btn-primary{display:inline-block;padding:.85rem 2rem;background:#006AA7;color:#fff;border-radius:.7rem;font-family:inherit;font-size:.95rem;font-weight:700;text-decoration:none;transition:opacity .15s;}
+.btn-primary:hover{opacity:.88;}
+.btn-secondary{display:inline-block;padding:.85rem 2rem;border:1.5px solid #d6d3d1;color:#57534e;border-radius:.7rem;font-family:inherit;font-size:.95rem;font-weight:600;text-decoration:none;transition:border-color .15s;}
+.btn-secondary:hover{border-color:#006AA7;color:#006AA7;}
+.hero-note{font-size:.78rem;color:#a8a29e;}
+.hero-note strong{color:#57534e;}
+
+/* Status banner */
+.status-bar{max-width:800px;margin:0 auto 2rem;padding:0 2rem;}
+.status-bar-inner{background:#fffbeb;border:1px solid #fde68a;border-radius:.75rem;padding:1rem 1.3rem;display:flex;align-items:flex-start;gap:.75rem;font-size:.82rem;color:#92400e;line-height:1.55;}
+.status-icon{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
+
+/* Topics grid */
+.section{max-width:900px;margin:0 auto;padding:0 2rem 3.5rem;}
+.section-kicker{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#006AA7;margin-bottom:.5rem;}
+.section-title{font-size:1.5rem;font-weight:700;letter-spacing:-.025em;margin-bottom:.5rem;}
+.section-sub{font-size:.88rem;color:#78716c;line-height:1.6;margin-bottom:2rem;max-width:640px;}
+
+.topics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.75rem;}
+.topic-card{background:#fff;border:1.5px solid #e7e5e4;border-radius:.85rem;padding:1.2rem 1.4rem;transition:border-color .15s;}
+.topic-card:hover{border-color:#006AA7;}
+.topic-num{font-size:.65rem;font-weight:700;color:#006AA7;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem;}
+.topic-name{font-size:.92rem;font-weight:700;margin-bottom:.3rem;letter-spacing:-.01em;}
+.topic-desc{font-size:.78rem;color:#78716c;line-height:1.5;}
+
+/* Features */
+.features{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem;margin-top:1.5rem;}
+.feat{background:#fff;border:1.5px solid #e7e5e4;border-radius:.85rem;padding:1.2rem 1.4rem;}
+.feat-label{font-size:.68rem;font-weight:700;color:#006AA7;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem;}
+.feat-title{font-size:.88rem;font-weight:700;margin-bottom:.25rem;}
+.feat-text{font-size:.78rem;color:#78716c;line-height:1.5;}
+
+/* Price strip */
+.price-strip{max-width:900px;margin:0 auto;padding:0 2rem 3rem;}
+.price-inner{background:#fff;border:1.5px solid #e7e5e4;border-radius:1rem;padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;}
+.price-left h3{font-size:1.1rem;font-weight:700;margin-bottom:.25rem;}
+.price-left p{font-size:.82rem;color:#78716c;line-height:1.5;}
+.price-right{text-align:center;}
+.price-amount{font-size:2rem;font-weight:800;letter-spacing:-.03em;color:#006AA7;}
+.price-sub{font-size:.72rem;color:#a8a29e;margin-bottom:.6rem;}
+.price-btn{display:inline-block;padding:.75rem 2rem;background:#006AA7;color:#fff;border-radius:.65rem;font-family:inherit;font-size:.88rem;font-weight:700;text-decoration:none;transition:opacity .15s;}
+.price-btn:hover{opacity:.88;}
+.bundle-link{display:block;margin-top:.5rem;font-size:.72rem;color:#6d5ce8;font-weight:600;text-decoration:none;}
+.bundle-link:hover{text-decoration:underline;}
+
+/* Footer */
+.footer{max-width:900px;margin:0 auto;padding:2rem;border-top:1px solid #e7e5e4;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.72rem;color:#a8a29e;}
+.footer a{color:#006AA7;text-decoration:none;font-weight:500;}
+.footer a:hover{text-decoration:underline;}
+
+@media(max-width:640px){
+  .hero h1{font-size:1.6rem;}
+  .price-inner{flex-direction:column;text-align:center;}
+  .price-left{text-align:center;}
+  .header{padding:0 1rem;}
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="header-brand">
+    <div class="flag"></div>
+    <div>
+      <div class="header-title">Samhällskunskapsprov.se</div>
+      <div class="header-sub">powered by CivicLearn</div>
+    </div>
+  </div>
+  <a href="https://civiclearn.com/sweden/checkout.html" class="header-cta">Aktivera tillgång</a>
+</header>
+
+<section class="hero">
+  <div class="hero-badge">Nytt krav från 6 juni 2026</div>
+  <h1>Förbered dig inför <span>samhällskunskapsprovet</span></h1>
+  <p class="hero-sub">
+    Från sommaren 2026 krävs godkänt samhällskunskapsprov för svenskt medborgarskap.
+    Testet utvecklas av Göteborgs universitet och baseras på materialet från
+    informationsverige.se. Börja öva redan nu med 800 frågor i alla 7 ämnesområden.
+  </p>
+  <div class="hero-ctas">
+    <a href="https://civiclearn.com/sweden/checkout.html" class="btn-primary">Aktivera tillgång — 499 kr</a>
+    <a href="https://civiclearn.com/sweden/login.html" class="btn-secondary">Jag har redan konto</a>
+  </div>
+  <p class="hero-note"><strong>Engångsbetalning, livstidsåtkomst.</strong> Inga prenumerationer.</p>
+</section>
+
+<div class="status-bar">
+  <div class="status-bar-inner">
+    <span class="status-icon">⏳</span>
+    <div>
+      <strong>Testets status:</strong> Lagen träder i kraft 6 juni 2026. UHR ansvarar för genomförandet.
+      Göteborgs universitet utvecklar provfrågorna — enbart prototypfrågor beräknas vara klara i tid.
+      Våra 800 övningsfrågor bygger på de ämnesområden och det kursmaterial som regeringen har fastställt.
+    </div>
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-kicker">Officiella ämnesområden</div>
+  <h2 class="section-title">7 ämnen som testet omfattar</h2>
+  <p class="section-sub">
+    Enligt SOU 2025:1 ska tyngdpunkten ligga på kunskaper som behövs för att leva
+    och fungera i det svenska samhället, med fokus på demokrati och den demokratiska processen.
+  </p>
+
+  <div class="topics-grid">
+    <div class="topic-card">
+      <div class="topic-num">Ämne 1 · 120 frågor</div>
+      <div class="topic-name">Historia och geografi</div>
+      <div class="topic-desc">Vikingatid till modern tid. Sveriges landskap, städer, klimat, nationella minoriteter.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 2 · 110 frågor</div>
+      <div class="topic-name">Kultur, traditioner och religion</div>
+      <div class="topic-desc">Midsommar, Lucia, jul, fika, allemansrätten, sekularism, Svenska kyrkan, Nobelpriset.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 3 · 120 frågor</div>
+      <div class="topic-name">Demokrati och styrelseskick</div>
+      <div class="topic-desc">Riksdagen, regeringen, val, kommuner, regioner, partier, monarkin, myndigheter.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 4 · 120 frågor</div>
+      <div class="topic-name">Lagar, rättigheter och jämlikhet</div>
+      <div class="topic-desc">Grundlagarna, mänskliga rättigheter, jämställdhet, barnkonventionen, diskriminering.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 5 · 115 frågor</div>
+      <div class="topic-name">Välfärd, integration och medborgarskap</div>
+      <div class="topic-desc">Sjukvård, utbildning, socialförsäkring, SFI, medborgarskapskrav, personnummer.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 6 · 110 frågor</div>
+      <div class="topic-name">Ekonomi, arbete och miljö</div>
+      <div class="topic-desc">Skattesystemet, arbetsmarknaden, fackföreningar, företagande, klimatpolitik.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">Ämne 7 · 105 frågor</div>
+      <div class="topic-name">Media och Sverige i världen</div>
+      <div class="topic-desc">Public service, källkritik, EU-medlemskap, NATO, FN, Nordiskt samarbete.</div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-kicker">Plattformen</div>
+  <h2 class="section-title">Vad du får tillgång till</h2>
+
+  <div class="features">
+    <div class="feat">
+      <div class="feat-label">Test per ämne</div>
+      <div class="feat-title">Med förklaringar</div>
+      <div class="feat-text">Välj ämne och öva steg för steg. Varje fråga har en förklaring. Fel svar kommer tillbaka tills du behärskar dem.</div>
+    </div>
+    <div class="feat">
+      <div class="feat-label">Provsimulering</div>
+      <div class="feat-title">25 frågor, 45 minuter</div>
+      <div class="feat-text">Simulera riktiga provförhållanden med tidsgräns och 80 % godkänt-gräns.</div>
+    </div>
+    <div class="feat">
+      <div class="feat-label">Tvåspråkig</div>
+      <div class="feat-title">Svenska + engelska</div>
+      <div class="feat-text">Alla frågor, svar och förklaringar på båda språken. Byt med ett klick.</div>
+    </div>
+    <div class="feat">
+      <div class="feat-label">Dashboard</div>
+      <div class="feat-title">Framsteg i realtid</div>
+      <div class="feat-text">Mastery per ämne, estimerat provresultat, studietid och streak.</div>
+    </div>
+    <div class="feat">
+      <div class="feat-label">Snabbtest + flashcards</div>
+      <div class="feat-title">Öva på 2 minuter</div>
+      <div class="feat-text">5 slumpmässiga frågor eller bläddra kort per ämne — perfekt för korta stunder.</div>
+    </div>
+    <div class="feat">
+      <div class="feat-label">Alla enheter</div>
+      <div class="feat-title">Mobil, surfplatta, dator</div>
+      <div class="feat-text">Helt responsiv. Öva hemma, på bussen eller i kön.</div>
+    </div>
+  </div>
+</section>
+
+<div class="price-strip">
+  <div class="price-inner">
+    <div class="price-left">
+      <h3>Premium-tillgång</h3>
+      <p>800 frågor i 7 ämnen med förklaringar. Simuleringar, flashcards, framsteg i realtid. Livstidsåtkomst — inget abonnemang.</p>
+    </div>
+    <div class="price-right">
+      <div class="price-amount">499 kr</div>
+      <div class="price-sub">Engångsbetalning</div>
+      <a href="https://civiclearn.com/sweden/checkout.html" class="price-btn">Aktivera nu</a>
+      <a href="https://civiclearn.com/sweden/checkout.html?plan=bundle" class="bundle-link">+ SvenskaProv (språktest) = 999 kr — spara 199 kr</a>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div>© 2026 samhallskunskapsprov.se · powered by <a href="https://civiclearn.com">CivicLearn</a></div>
+  <div>
+    <a href="mailto:support@civiclearn.com">Kontakt</a>
+  </div>
+</footer>
+
+</body>
+</html>
