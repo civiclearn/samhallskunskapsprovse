@@ -3,241 +3,1032 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Samhällskunskapsprov — Förbered dig inför Sveriges samhällskunskapstest 2026</title>
-<meta name="description" content="Allt om det nya samhällskunskapsprovet för svenskt medborgarskap. 7 ämnesområden, officiellt underlag, övningsfrågor. Förbered dig redan nu.">
+<title>Samhällskunskapsprov 2026 — träna med Sverige i fokus | Samhällskunskapsprov.se</title>
+<meta name="description" content="Förbered dig inför samhällskunskapsprovet 2026 med 1000 frågor från den officiella studiehandledningen Sverige i fokus. 13 ämnen, tvåspråkigt SV/EN, simuleringar. Aktivera för 499 kr.">
+<meta name="keywords" content="samhällskunskapsprov, samhällskunskapstest, Sverige i fokus, samhällskunskapsprovet 2026, medborgarskapsprov, svenskt medborgarskap">
 <link rel="canonical" href="https://samhallskunskapsprov.se/">
-<meta property="og:title" content="Samhällskunskapsprov — Sveriges samhällskunskapstest 2026">
-<meta property="og:description" content="800 övningsfrågor i 7 ämnen. Baserat på det officiella underlaget. 499 kr engångsbetalning.">
+
 <meta property="og:type" content="website">
+<meta property="og:locale" content="sv_SE">
+<meta property="og:title" content="Samhällskunskapsprov 2026 — träna med Sverige i fokus">
+<meta property="og:description" content="1000 frågor från den officiella studiehandledningen. 13 ämnen, simuleringar, tvåspråkigt SV/EN. Aktivera nu — 499 kr.">
 <meta property="og:url" content="https://samhallskunskapsprov.se/">
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-html{font-size:16px;-webkit-font-smoothing:antialiased;}
-body{font-family:"Lexend",system-ui,sans-serif;background:#f8f7f4;color:#0f172a;min-height:100vh;}
-a{color:inherit;}
 
-/* Header */
-.header{background:#0f172a;border-bottom:3px solid #006AA7;padding:0 2rem;height:56px;display:flex;align-items:center;justify-content:space-between;}
-.header-brand{display:flex;align-items:center;gap:12px;}
-.flag{width:22px;height:15px;background:#006AA7;border-radius:2px;position:relative;overflow:hidden;flex-shrink:0;}
-.flag::before{content:'';position:absolute;top:0;left:6px;width:2.5px;height:100%;background:#FECC02;}
-.flag::after{content:'';position:absolute;top:6px;left:0;width:100%;height:2.5px;background:#FECC02;}
-.header-title{font-size:.92rem;font-weight:600;color:#fff;}
-.header-sub{font-size:.68rem;color:#64748b;}
-.header-cta{font-size:.78rem;font-weight:600;color:#fff;background:#006AA7;padding:.45rem 1.1rem;border-radius:.5rem;text-decoration:none;transition:opacity .15s;}
-.header-cta:hover{opacity:.85;}
-
-/* Hero */
-.hero{max-width:800px;margin:0 auto;padding:4rem 2rem 3rem;text-align:center;}
-.hero-badge{display:inline-block;font-size:.72rem;font-weight:700;color:#006AA7;background:#e0f0fa;padding:.3rem .9rem;border-radius:2rem;margin-bottom:1.2rem;letter-spacing:.02em;text-transform:uppercase;}
-.hero h1{font-size:2.2rem;font-weight:700;letter-spacing:-.03em;line-height:1.2;margin-bottom:1rem;}
-.hero h1 span{color:#006AA7;}
-.hero-sub{font-size:1rem;color:#57534e;line-height:1.7;max-width:640px;margin:0 auto 2rem;}
-.hero-ctas{display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem;}
-.btn-primary{display:inline-block;padding:.85rem 2rem;background:#006AA7;color:#fff;border-radius:.7rem;font-family:inherit;font-size:.95rem;font-weight:700;text-decoration:none;transition:opacity .15s;}
-.btn-primary:hover{opacity:.88;}
-.btn-secondary{display:inline-block;padding:.85rem 2rem;border:1.5px solid #d6d3d1;color:#57534e;border-radius:.7rem;font-family:inherit;font-size:.95rem;font-weight:600;text-decoration:none;transition:border-color .15s;}
-.btn-secondary:hover{border-color:#006AA7;color:#006AA7;}
-.hero-note{font-size:.78rem;color:#a8a29e;}
-.hero-note strong{color:#57534e;}
-
-/* Status banner */
-.status-bar{max-width:800px;margin:0 auto 2rem;padding:0 2rem;}
-.status-bar-inner{background:#fffbeb;border:1px solid #fde68a;border-radius:.75rem;padding:1rem 1.3rem;display:flex;align-items:flex-start;gap:.75rem;font-size:.82rem;color:#92400e;line-height:1.55;}
-.status-icon{font-size:1.1rem;flex-shrink:0;margin-top:.1rem;}
-
-/* Topics grid */
-.section{max-width:900px;margin:0 auto;padding:0 2rem 3.5rem;}
-.section-kicker{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:#006AA7;margin-bottom:.5rem;}
-.section-title{font-size:1.5rem;font-weight:700;letter-spacing:-.025em;margin-bottom:.5rem;}
-.section-sub{font-size:.88rem;color:#78716c;line-height:1.6;margin-bottom:2rem;max-width:640px;}
-
-.topics-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:.75rem;}
-.topic-card{background:#fff;border:1.5px solid #e7e5e4;border-radius:.85rem;padding:1.2rem 1.4rem;transition:border-color .15s;}
-.topic-card:hover{border-color:#006AA7;}
-.topic-num{font-size:.65rem;font-weight:700;color:#006AA7;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.35rem;}
-.topic-name{font-size:.92rem;font-weight:700;margin-bottom:.3rem;letter-spacing:-.01em;}
-.topic-desc{font-size:.78rem;color:#78716c;line-height:1.5;}
-
-/* Features */
-.features{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:.75rem;margin-top:1.5rem;}
-.feat{background:#fff;border:1.5px solid #e7e5e4;border-radius:.85rem;padding:1.2rem 1.4rem;}
-.feat-label{font-size:.68rem;font-weight:700;color:#006AA7;text-transform:uppercase;letter-spacing:.04em;margin-bottom:.3rem;}
-.feat-title{font-size:.88rem;font-weight:700;margin-bottom:.25rem;}
-.feat-text{font-size:.78rem;color:#78716c;line-height:1.5;}
-
-/* Price strip */
-.price-strip{max-width:900px;margin:0 auto;padding:0 2rem 3rem;}
-.price-inner{background:#fff;border:1.5px solid #e7e5e4;border-radius:1rem;padding:2rem 2.5rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;}
-.price-left h3{font-size:1.1rem;font-weight:700;margin-bottom:.25rem;}
-.price-left p{font-size:.82rem;color:#78716c;line-height:1.5;}
-.price-right{text-align:center;}
-.price-amount{font-size:2rem;font-weight:800;letter-spacing:-.03em;color:#006AA7;}
-.price-sub{font-size:.72rem;color:#a8a29e;margin-bottom:.6rem;}
-.price-btn{display:inline-block;padding:.75rem 2rem;background:#006AA7;color:#fff;border-radius:.65rem;font-family:inherit;font-size:.88rem;font-weight:700;text-decoration:none;transition:opacity .15s;}
-.price-btn:hover{opacity:.88;}
-.bundle-link{display:block;margin-top:.5rem;font-size:.72rem;color:#6d5ce8;font-weight:600;text-decoration:none;}
-.bundle-link:hover{text-decoration:underline;}
-
-/* Footer */
-.footer{max-width:900px;margin:0 auto;padding:2rem;border-top:1px solid #e7e5e4;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem;font-size:.72rem;color:#a8a29e;}
-.footer a{color:#006AA7;text-decoration:none;font-weight:500;}
-.footer a:hover{text-decoration:underline;}
-
-@media(max-width:640px){
-  .hero h1{font-size:1.6rem;}
-  .price-inner{flex-direction:column;text-align:center;}
-  .price-left{text-align:center;}
-  .header{padding:0 1rem;}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Samhällskunskapsprov — övningsplattform",
+  "description": "1000 övningsfrågor i 13 ämnen baserade på den officiella studiehandledningen Sverige i fokus. Förberedelse för det svenska samhällskunskapstestet som träder i kraft 6 juni 2026.",
+  "brand": {"@type": "Brand", "name": "CivicLearn"},
+  "offers": {
+    "@type": "Offer",
+    "price": "499",
+    "priceCurrency": "SEK",
+    "availability": "https://schema.org/InStock",
+    "url": "https://civiclearn.com/sweden/checkout"
+  }
 }
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Lexend:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --brand: #006AA7;
+    --brand-dark: #00558a;
+    --brand-deep: #003d63;
+    --accent: #FECC02;
+    --book: #6d4aff;
+    --book-deep: #4f33c7;
+    --book-soft: #f3eeff;
+    --bg: #faf8f3;
+    --surface: #ffffff;
+    --ink: #0f172a;
+    --ink-2: #1e293b;
+    --muted: #57534e;
+    --quiet: #a8a29e;
+    --line: #ebe7e1;
+    --line-strong: #d6d3d1;
+    --serif: "Fraunces", Georgia, serif;
+    --sans: "Lexend", system-ui, -apple-system, sans-serif;
+  }
+
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+  html{font-size:16px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;scroll-behavior:smooth;}
+  body{font-family:var(--sans);background:var(--bg);color:var(--ink);min-height:100vh;line-height:1.55;}
+  a{color:inherit;}
+  img{max-width:100%;display:block;}
+
+  /* ============ HEADER ============ */
+  .header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(15,23,42,0.96);
+    backdrop-filter:blur(8px);
+    -webkit-backdrop-filter:blur(8px);
+    border-bottom:1px solid rgba(255,255,255,0.06);
+    padding:0 2rem;height:60px;
+    display:flex;align-items:center;justify-content:space-between;
+  }
+  .header-brand{display:flex;align-items:center;gap:12px;text-decoration:none;}
+  .flag{
+    width:24px;height:16px;background:var(--brand);border-radius:2px;
+    position:relative;overflow:hidden;flex-shrink:0;
+    box-shadow:0 0 0 1px rgba(255,255,255,0.08);
+  }
+  .flag::before{content:'';position:absolute;top:0;left:7px;width:2.5px;height:100%;background:var(--accent);}
+  .flag::after{content:'';position:absolute;top:6.5px;left:0;width:100%;height:2.5px;background:var(--accent);}
+  .header-title{font-size:.95rem;font-weight:600;color:#fff;letter-spacing:-.01em;line-height:1.2;}
+  .header-sub{font-size:.65rem;color:#94a3b8;letter-spacing:.02em;line-height:1.2;margin-top:1px;}
+  .header-nav{display:flex;align-items:center;gap:1.6rem;}
+  .header-nav a:not(.header-cta){
+    font-size:.83rem;font-weight:500;color:#cbd5e1;text-decoration:none;
+    transition:color .15s;
+  }
+  .header-nav a:not(.header-cta):hover{color:#fff;}
+  .header-cta{
+    font-size:.8rem;font-weight:600;color:#0f172a;background:var(--accent);
+    padding:.5rem 1.1rem;border-radius:.45rem;text-decoration:none;
+    transition:transform .15s, box-shadow .15s;
+    box-shadow:0 1px 0 rgba(0,0,0,0.1);
+  }
+  .header-cta:hover{transform:translateY(-1px);box-shadow:0 6px 16px rgba(254,204,2,0.35);}
+  .header-nav-link-mobile{display:none;}
+  @media(max-width:720px){
+    .header{padding:0 1.1rem;}
+    .header-sub{display:none;}
+    .header-nav-link{display:none;}
+    .header-nav{gap:.7rem;}
+  }
+
+  /* ============ COUNTDOWN BAR ============ */
+  .countdown{
+    background:linear-gradient(90deg, var(--brand-deep), var(--brand) 60%, var(--brand-dark));
+    color:#fff;padding:.7rem 1.5rem;
+    display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap;
+    font-size:.82rem;letter-spacing:.01em;
+    border-bottom:3px solid var(--accent);
+  }
+  .countdown-num{
+    font-family:var(--serif);font-weight:700;font-size:1.4rem;
+    color:var(--accent);line-height:1;letter-spacing:-.02em;
+  }
+  .countdown-text strong{font-weight:600;color:#fff;}
+  .countdown-text{color:#dbeafe;}
+  .countdown-pill{
+    background:rgba(255,255,255,0.14);padding:.18rem .55rem;border-radius:999px;
+    font-size:.68rem;font-weight:600;letter-spacing:.04em;text-transform:uppercase;
+    margin-left:.3rem;
+  }
+
+  /* ============ HERO ============ */
+  .hero{
+    max-width:1100px;margin:0 auto;
+    padding:5rem 2rem 3.5rem;
+    display:grid;grid-template-columns:1.15fr .85fr;gap:4rem;align-items:center;
+  }
+  .hero-eyebrow{
+    display:inline-flex;align-items:center;gap:.5rem;
+    font-size:.7rem;font-weight:700;color:var(--brand-dark);
+    background:#e0eff8;padding:.35rem .85rem;border-radius:2rem;
+    margin-bottom:1.4rem;letter-spacing:.05em;text-transform:uppercase;
+  }
+  .hero-eyebrow::before{
+    content:'';width:6px;height:6px;border-radius:50%;background:var(--brand);
+    box-shadow:0 0 0 4px rgba(0,106,167,0.18);
+  }
+  .hero h1{
+    font-family:var(--serif);font-weight:600;
+    font-size:clamp(2.2rem, 4.5vw, 3.4rem);
+    letter-spacing:-.025em;line-height:1.05;
+    margin-bottom:1.2rem;
+    color:var(--ink);
+  }
+  .hero h1 em{
+    font-style:italic;font-weight:500;
+    color:var(--brand-dark);
+    background:linear-gradient(transparent 65%, rgba(254,204,2,0.45) 65%);
+    padding:0 .12em;
+  }
+  .hero-sub{
+    font-size:1.05rem;color:var(--muted);line-height:1.7;
+    max-width:540px;margin-bottom:2rem;
+  }
+  .hero-sub strong{color:var(--ink);font-weight:600;}
+  .hero-ctas{display:flex;gap:.7rem;flex-wrap:wrap;margin-bottom:1.5rem;}
+  .btn-primary{
+    display:inline-flex;align-items:center;gap:.5rem;
+    padding:.95rem 1.8rem;background:var(--brand);color:#fff;
+    border-radius:.6rem;font-family:inherit;font-size:.95rem;font-weight:600;
+    text-decoration:none;letter-spacing:-.005em;
+    transition:transform .15s, box-shadow .15s, background .15s;
+    box-shadow:0 6px 20px rgba(0,106,167,0.28);
+  }
+  .btn-primary:hover{background:var(--brand-dark);transform:translateY(-1px);box-shadow:0 10px 26px rgba(0,106,167,0.36);}
+  .btn-primary::after{content:'→';font-size:1rem;transition:transform .15s;}
+  .btn-primary:hover::after{transform:translateX(2px);}
+  .btn-secondary{
+    display:inline-flex;align-items:center;gap:.5rem;
+    padding:.95rem 1.6rem;
+    border:1.5px solid var(--line-strong);color:var(--ink-2);
+    background:#fff;
+    border-radius:.6rem;font-family:inherit;font-size:.95rem;font-weight:600;
+    text-decoration:none;
+    transition:border-color .15s, color .15s;
+  }
+  .btn-secondary:hover{border-color:var(--brand);color:var(--brand);}
+  .hero-trust{
+    display:flex;align-items:center;gap:.7rem;
+    font-size:.78rem;color:var(--quiet);
+  }
+  .stars{color:#fbbf24;letter-spacing:.05em;font-size:.9rem;}
+  .hero-trust strong{color:var(--muted);font-weight:600;}
+
+  /* Hero book preview (right column) */
+  .hero-visual{
+    position:relative;
+    aspect-ratio: 3 / 3.4;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .hero-visual::before{
+    content:'';position:absolute;inset:-2rem;
+    background:radial-gradient(circle at 60% 40%, rgba(109,74,255,0.18), transparent 60%);
+    z-index:0;
+  }
+  .hero-book-wrap{
+    position:relative;z-index:1;width:100%;
+    border-radius:1.2rem;overflow:hidden;
+    box-shadow:
+      0 30px 60px -20px rgba(15,23,42,0.45),
+      0 18px 36px -18px rgba(109,74,255,0.4);
+    transform:rotate(-1.5deg);
+    transition:transform .4s cubic-bezier(.2,.7,.3,1);
+  }
+  .hero-book-wrap:hover{transform:rotate(0deg) scale(1.01);}
+  .hero-book-wrap img{width:100%;display:block;}
+  .hero-book-tag{
+    position:absolute;z-index:2;
+    bottom:-1rem;right:-.6rem;
+    background:#fff;padding:.65rem 1rem;
+    border-radius:.65rem;
+    box-shadow:0 12px 30px -8px rgba(15,23,42,0.18);
+    border:1px solid var(--line);
+    font-size:.7rem;font-weight:600;color:var(--ink-2);
+    line-height:1.35;
+    transform:rotate(2deg);
+  }
+  .hero-book-tag strong{display:block;font-family:var(--serif);font-weight:600;color:var(--book-deep);font-size:.85rem;letter-spacing:-.01em;}
+
+  @media(max-width:880px){
+    .hero{grid-template-columns:1fr;gap:3rem;padding:3rem 1.5rem 2.5rem;}
+    .hero-visual{max-width:340px;margin:0 auto;}
+  }
+
+  /* ============ BOOK SHOWCASE ============ */
+  .book-showcase{
+    background:linear-gradient(180deg, #1e1335 0%, #2a1c4a 100%);
+    color:#fff;
+    padding:6rem 2rem;
+    position:relative;overflow:hidden;
+  }
+  .book-showcase::before{
+    content:'';position:absolute;
+    top:-30%;left:-20%;width:70%;height:160%;
+    background:radial-gradient(ellipse at center, rgba(109,74,255,0.35), transparent 65%);
+    pointer-events:none;
+  }
+  .book-showcase::after{
+    content:'';position:absolute;
+    bottom:-40%;right:-20%;width:70%;height:140%;
+    background:radial-gradient(ellipse at center, rgba(254,204,2,0.07), transparent 65%);
+    pointer-events:none;
+  }
+  .book-inner{
+    max-width:1100px;margin:0 auto;
+    display:grid;grid-template-columns:.95fr 1.05fr;gap:5rem;align-items:center;
+    position:relative;z-index:1;
+  }
+  .book-image{
+    position:relative;
+    border-radius:1rem;overflow:hidden;
+    box-shadow:0 40px 80px -20px rgba(0,0,0,0.5), 0 25px 50px -25px rgba(109,74,255,0.5);
+  }
+  .book-image img{width:100%;display:block;}
+  .book-image-caption{
+    position:absolute;bottom:1rem;left:1rem;right:1rem;
+    background:rgba(15,9,30,0.7);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    padding:.7rem 1rem;border-radius:.5rem;
+    font-size:.7rem;color:#cbd5e1;letter-spacing:.02em;
+  }
+  .book-image-caption strong{color:#fff;font-weight:600;}
+  .book-eyebrow{
+    display:inline-block;
+    font-size:.7rem;font-weight:700;color:var(--accent);
+    letter-spacing:.1em;text-transform:uppercase;
+    margin-bottom:1rem;
+  }
+  .book-content h2{
+    font-family:var(--serif);font-weight:600;
+    font-size:clamp(1.9rem, 3.2vw, 2.6rem);
+    letter-spacing:-.02em;line-height:1.15;
+    margin-bottom:1.2rem;
+    color:#fff;
+  }
+  .book-content h2 em{font-style:italic;color:#c4b5fd;font-weight:500;}
+  .book-content > p{
+    font-size:1rem;color:#cbd5e1;line-height:1.7;
+    margin-bottom:1.5rem;max-width:520px;
+  }
+  .book-facts{
+    display:grid;grid-template-columns:repeat(2,1fr);gap:.8rem;
+    margin:1.8rem 0 2rem;
+    max-width:520px;
+  }
+  .book-fact{
+    background:rgba(255,255,255,0.04);
+    border:1px solid rgba(255,255,255,0.08);
+    border-radius:.6rem;padding:.85rem 1rem;
+  }
+  .book-fact-num{
+    font-family:var(--serif);font-weight:600;font-size:1.5rem;
+    color:var(--accent);line-height:1;letter-spacing:-.02em;
+    margin-bottom:.2rem;
+  }
+  .book-fact-label{font-size:.75rem;color:#cbd5e1;line-height:1.35;}
+  .book-cta{
+    display:inline-flex;align-items:center;gap:.5rem;
+    padding:.95rem 1.8rem;background:var(--accent);color:#1e1335;
+    border-radius:.6rem;font-family:inherit;font-size:.95rem;font-weight:700;
+    text-decoration:none;
+    transition:transform .15s, box-shadow .15s;
+    box-shadow:0 8px 24px rgba(254,204,2,0.3);
+  }
+  .book-cta:hover{transform:translateY(-1px);box-shadow:0 12px 30px rgba(254,204,2,0.45);}
+  .book-cta::after{content:'→';transition:transform .15s;}
+  .book-cta:hover::after{transform:translateX(3px);}
+  .book-cta-note{
+    margin-top:.9rem;font-size:.78rem;color:#94a3b8;
+  }
+
+  @media(max-width:880px){
+    .book-showcase{padding:4rem 1.5rem;}
+    .book-inner{grid-template-columns:1fr;gap:3rem;}
+    .book-image{max-width:380px;margin:0 auto;}
+  }
+
+  /* ============ SECTIONS ============ */
+  .section{max-width:1100px;margin:0 auto;padding:5rem 2rem;}
+  .section-narrow{max-width:900px;}
+  .section-head{margin-bottom:3rem;}
+  .section-kicker{
+    font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
+    color:var(--brand);margin-bottom:.7rem;
+  }
+  .section-title{
+    font-family:var(--serif);font-weight:600;
+    font-size:clamp(1.7rem, 3vw, 2.3rem);
+    letter-spacing:-.02em;line-height:1.15;
+    margin-bottom:.7rem;color:var(--ink);
+  }
+  .section-lead{
+    font-size:1rem;color:var(--muted);line-height:1.7;max-width:640px;
+  }
+  .section-lead em{color:var(--ink-2);font-style:italic;}
+
+  /* ============ TOPICS GRID (13 chapters) ============ */
+  .topics-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(280px, 1fr));
+    gap:.7rem;
+  }
+  .topic-card{
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:.85rem;
+    padding:1.3rem 1.4rem;
+    transition:transform .15s, border-color .15s, box-shadow .15s;
+    position:relative;
+  }
+  .topic-card:hover{
+    border-color:var(--brand);
+    transform:translateY(-2px);
+    box-shadow:0 12px 28px -12px rgba(0,106,167,0.2);
+  }
+  .topic-num{
+    font-family:var(--serif);font-weight:600;
+    font-size:.95rem;color:var(--brand);
+    letter-spacing:.02em;
+    margin-bottom:.4rem;
+    display:flex;align-items:baseline;gap:.4rem;
+  }
+  .topic-num span{
+    font-family:var(--sans);font-size:.66rem;font-weight:600;
+    color:var(--quiet);letter-spacing:.05em;text-transform:uppercase;
+  }
+  .topic-name{
+    font-size:.98rem;font-weight:600;
+    margin-bottom:.35rem;letter-spacing:-.01em;
+    color:var(--ink);line-height:1.3;
+  }
+  .topic-desc{font-size:.78rem;color:var(--muted);line-height:1.5;}
+
+  .topics-totals{
+    margin-top:1.5rem;
+    background:#fff;
+    border:1px dashed var(--line-strong);
+    border-radius:.7rem;
+    padding:1rem 1.3rem;
+    display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;
+    font-size:.85rem;color:var(--muted);
+  }
+  .topics-totals strong{color:var(--ink);font-weight:600;}
+  .topics-totals-cta{
+    font-size:.82rem;font-weight:600;color:var(--brand);
+    text-decoration:none;
+  }
+  .topics-totals-cta:hover{text-decoration:underline;}
+
+  /* ============ FEATURES ============ */
+  .features-section{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);}
+  .features-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(260px, 1fr));
+    gap:1rem;
+  }
+  .feat{
+    background:var(--bg);
+    border:1px solid var(--line);
+    border-radius:.85rem;padding:1.5rem;
+    transition:border-color .15s;
+  }
+  .feat:hover{border-color:var(--brand);}
+  .feat-icon{
+    width:38px;height:38px;border-radius:.55rem;
+    background:linear-gradient(135deg, #e0eff8, #c2dff0);
+    color:var(--brand);
+    display:flex;align-items:center;justify-content:center;
+    font-family:var(--serif);font-weight:600;font-size:1.1rem;
+    margin-bottom:1rem;letter-spacing:-.02em;
+  }
+  .feat-title{font-size:.98rem;font-weight:600;margin-bottom:.4rem;letter-spacing:-.01em;}
+  .feat-text{font-size:.85rem;color:var(--muted);line-height:1.55;}
+
+  /* ============ PRICING ============ */
+  .pricing{padding:5rem 2rem;}
+  .pricing-inner{max-width:560px;margin:0 auto;text-align:center;}
+  .pricing .section-head{text-align:center;margin-bottom:2rem;}
+  .pricing .section-lead{margin:0 auto;}
+  .pricing-toggle{
+    display:inline-flex;
+    background:#fff;
+    border:1px solid var(--line);
+    border-radius:999px;padding:4px;
+    margin-bottom:1.5rem;
+    box-shadow:0 4px 14px -4px rgba(15,23,42,0.06);
+  }
+  .pricing-toggle button{
+    border:none;background:transparent;
+    padding:.55rem 1.2rem;border-radius:999px;
+    font-family:inherit;font-size:.83rem;font-weight:600;color:var(--muted);
+    cursor:pointer;transition:all .2s;letter-spacing:-.005em;
+    display:inline-flex;align-items:center;gap:.4rem;
+  }
+  .pricing-toggle button.active{background:var(--brand);color:#fff;box-shadow:0 4px 12px rgba(0,106,167,0.3);}
+  .save-badge{
+    background:var(--accent);color:#1a1a1a;
+    font-size:.65rem;font-weight:700;
+    padding:.12rem .45rem;border-radius:999px;
+    letter-spacing:.02em;
+  }
+  .pricing-toggle button.active .save-badge{background:#0f172a;color:var(--accent);}
+
+  .pricing-card{
+    background:#fff;border-radius:1.2rem;
+    overflow:hidden;
+    box-shadow:0 20px 50px -20px rgba(15,23,42,0.18), 0 1px 0 var(--line);
+    text-align:left;
+  }
+  .pricing-top{
+    background:linear-gradient(135deg, var(--brand-deep) 0%, var(--brand) 60%, var(--brand-dark) 100%);
+    color:#fff;
+    padding:1.6rem 2rem;
+    position:relative;overflow:hidden;
+  }
+  .pricing-top::after{
+    content:'';position:absolute;top:-30%;right:-10%;width:50%;height:160%;
+    background:radial-gradient(ellipse, rgba(254,204,2,0.18), transparent 60%);
+  }
+  .pricing-tag{
+    font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--accent);margin-bottom:.4rem;
+    position:relative;z-index:1;
+  }
+  .pricing-amount{
+    font-family:var(--serif);font-weight:600;
+    font-size:2.6rem;letter-spacing:-.03em;line-height:1;
+    color:#fff;
+    position:relative;z-index:1;
+  }
+  .pricing-amount .currency{font-size:1.3rem;font-weight:500;color:#bfdbfe;margin-left:.2rem;letter-spacing:0;}
+  .pricing-period{
+    font-size:.82rem;color:#bfdbfe;margin-top:.4rem;
+    position:relative;z-index:1;
+  }
+  .pricing-saving{
+    display:none;
+    margin-top:.5rem;
+    font-size:.78rem;color:var(--accent);font-weight:600;
+    position:relative;z-index:1;
+  }
+  .pricing-saving.visible{display:block;}
+
+  .pricing-body{padding:1.8rem 2rem 2rem;}
+  .feature-list{list-style:none;padding:0;margin:0 0 1.5rem;}
+  .feature-list li{
+    position:relative;padding:.45rem 0 .45rem 1.7rem;
+    font-size:.88rem;color:var(--ink-2);line-height:1.5;
+    border-bottom:1px solid var(--line);
+  }
+  .feature-list li:last-child{border-bottom:none;}
+  .feature-list li::before{
+    content:'';position:absolute;left:0;top:.6rem;
+    width:1rem;height:1rem;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4.5 10.5 8 14l7.5-8.5' stroke='%23006AA7' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    background-size:contain;background-repeat:no-repeat;
+  }
+  .feature-list li em{color:var(--brand-dark);font-style:italic;font-weight:500;}
+  .feature-list .bundle-extra{display:none;}
+  .feature-list .bundle-extra.visible{display:block;background:#fffbeb;margin:0 -2rem;padding-left:3.7rem;padding-right:2rem;border-bottom:1px solid #fde68a;}
+  .feature-list .bundle-extra::before{
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M4.5 10.5 8 14l7.5-8.5' stroke='%23ca8a04' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3C/svg%3E");
+    left:2rem;
+  }
+  .pricing-cta{
+    display:block;text-align:center;
+    width:100%;
+    background:var(--brand);color:#fff;
+    padding:1rem 1.5rem;border-radius:.6rem;
+    font-family:inherit;font-size:.95rem;font-weight:700;
+    text-decoration:none;letter-spacing:-.005em;
+    transition:transform .15s, box-shadow .15s, background .15s;
+    box-shadow:0 8px 22px rgba(0,106,167,0.32);
+  }
+  .pricing-cta:hover{background:var(--brand-dark);transform:translateY(-1px);box-shadow:0 12px 28px rgba(0,106,167,0.4);}
+  .pricing-guarantee{
+    margin-top:1.2rem;font-size:.78rem;color:var(--quiet);text-align:center;
+  }
+  .pricing-guarantee strong{color:var(--muted);font-weight:600;}
+
+  /* ============ FAQ ============ */
+  .faq-section{background:#fff;border-top:1px solid var(--line);}
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:1.3rem 0;
+    cursor:pointer;
+  }
+  .faq-question{
+    display:flex;justify-content:space-between;align-items:center;gap:1rem;
+    font-size:1rem;font-weight:600;color:var(--ink);
+    letter-spacing:-.005em;
+  }
+  .faq-toggle{
+    width:24px;height:24px;border-radius:50%;
+    background:var(--bg);
+    display:flex;align-items:center;justify-content:center;
+    font-size:1.1rem;font-weight:300;color:var(--brand);
+    transition:transform .2s;flex-shrink:0;
+  }
+  .faq-item.open .faq-toggle{transform:rotate(45deg);}
+  .faq-answer{
+    max-height:0;overflow:hidden;
+    transition:max-height .3s ease;
+    color:var(--muted);font-size:.92rem;line-height:1.65;
+  }
+  .faq-item.open .faq-answer{max-height:400px;padding-top:.8rem;}
+  .faq-answer em{color:var(--brand-dark);font-style:italic;}
+
+  /* ============ FINAL CTA ============ */
+  .final-cta{
+    background:var(--ink);
+    color:#fff;padding:4rem 2rem;text-align:center;
+    position:relative;overflow:hidden;
+  }
+  .final-cta::before{
+    content:'';position:absolute;top:0;left:0;right:0;height:3px;
+    background:linear-gradient(90deg, var(--brand), var(--accent), var(--brand));
+  }
+  .final-cta-inner{max-width:640px;margin:0 auto;position:relative;}
+  .final-cta h2{
+    font-family:var(--serif);font-weight:600;
+    font-size:clamp(1.6rem, 3vw, 2.2rem);
+    letter-spacing:-.02em;line-height:1.2;
+    margin-bottom:.8rem;
+  }
+  .final-cta p{color:#94a3b8;font-size:.95rem;margin-bottom:1.8rem;max-width:480px;margin-left:auto;margin-right:auto;}
+  .final-cta .btn-primary{background:var(--accent);color:#1e1335;box-shadow:0 8px 24px rgba(254,204,2,0.3);}
+  .final-cta .btn-primary:hover{background:#ffd633;box-shadow:0 12px 30px rgba(254,204,2,0.45);}
+
+  /* ============ FOOTER ============ */
+  .footer{
+    background:#0a0f1c;color:#94a3b8;padding:2rem;
+    font-size:.78rem;
+  }
+  .footer-inner{
+    max-width:1100px;margin:0 auto;
+    display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.8rem;
+  }
+  .footer a{color:#cbd5e1;text-decoration:none;margin:0 .5rem;}
+  .footer a:hover{color:#fff;text-decoration:underline;}
+  .footer-brand{color:#cbd5e1;}
+  .footer-brand strong{color:#fff;}
+
+  /* ============ RESPONSIVE ============ */
+  @media(max-width:640px){
+    .section{padding:3.5rem 1.5rem;}
+    .pricing{padding:3.5rem 1.5rem;}
+    .pricing-body{padding:1.5rem 1.3rem 1.7rem;}
+    .pricing-top{padding:1.4rem 1.3rem;}
+    .feature-list .bundle-extra.visible{margin:0 -1.3rem;padding-left:3rem;padding-right:1.3rem;}
+    .countdown{flex-direction:column;gap:.4rem;text-align:center;padding:.8rem 1rem;}
+    .countdown-num{font-size:1.6rem;}
+  }
 </style>
 </head>
 <body>
 
+<!-- =============== HEADER =============== -->
 <header class="header">
-  <div class="header-brand">
-    <div class="flag"></div>
+  <a href="/" class="header-brand">
+    <div class="flag" aria-hidden="true"></div>
     <div>
       <div class="header-title">Samhällskunskapsprov.se</div>
-      <div class="header-sub">powered by CivicLearn</div>
+      <div class="header-sub">drivs av CivicLearn</div>
     </div>
-  </div>
-  <a href="https://civiclearn.com/sweden/checkout.html" class="header-cta">Aktivera tillgång</a>
+  </a>
+  <nav class="header-nav">
+    <a href="/gratis-test/" class="header-nav-link">Gratis test</a>
+    <a href="https://civiclearn.com/sweden/login.html" class="header-nav-link">Logga in</a>
+    <a href="https://civiclearn.com/sweden/checkout.html" class="header-cta">Aktivera tillgång</a>
+  </nav>
 </header>
 
-<section class="hero">
-  <div class="hero-badge">Nytt krav från 6 juni 2026</div>
-  <h1>Förbered dig inför <span>samhällskunskapsprovet</span></h1>
-  <p class="hero-sub">
-    Från sommaren 2026 krävs godkänt samhällskunskapsprov för svenskt medborgarskap.
-    Testet utvecklas av Göteborgs universitet och baseras på materialet från
-    informationsverige.se. Börja öva redan nu med 800 frågor i alla 7 ämnesområden.
-  </p>
-  <div class="hero-ctas">
-    <a href="https://civiclearn.com/sweden/checkout.html" class="btn-primary">Aktivera tillgång — 499 kr</a>
-    <a href="https://civiclearn.com/sweden/login.html" class="btn-secondary">Jag har redan konto</a>
-  </div>
-  <p class="hero-note"><strong>Engångsbetalning, livstidsåtkomst.</strong> Inga prenumerationer.</p>
-</section>
-
-<div class="status-bar">
-  <div class="status-bar-inner">
-    <span class="status-icon">⏳</span>
-    <div>
-      <strong>Testets status:</strong> Lagen träder i kraft 6 juni 2026. UHR ansvarar för genomförandet.
-      Göteborgs universitet utvecklar provfrågorna — enbart prototypfrågor beräknas vara klara i tid.
-      Våra 800 övningsfrågor bygger på de ämnesområden och det kursmaterial som regeringen har fastställt.
-    </div>
-  </div>
+<!-- =============== COUNTDOWN BAR =============== -->
+<div class="countdown" id="countdown">
+  <span class="countdown-num" id="countdown-num">—</span>
+  <span class="countdown-text" id="countdown-text">
+    <strong>dagar kvar</strong> tills samhällskunskapsprovet blir obligatoriskt — <strong>6 juni 2026</strong>
+    <span class="countdown-pill">Nytt krav</span>
+  </span>
 </div>
 
+<!-- =============== HERO =============== -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-eyebrow">Samhällskunskapsprovet 2026</div>
+    <h1>Klara samhällskunskapsprovet — träna med <em>Sverige i fokus</em></h1>
+    <p class="hero-sub">
+      Från <strong>6 juni 2026</strong> krävs godkänt samhällskunskapstest för svenskt medborgarskap.
+      Vi har gått igenom regeringens officiella studiehandledning <em>Sverige i fokus</em> kapitel för kapitel
+      och omsatt hela boken till <strong>1000 övningsfrågor i 13 ämnen</strong>. Börja träna redan idag —
+      på svenska eller engelska.
+    </p>
+    <div class="hero-ctas">
+      <a href="https://civiclearn.com/sweden/checkout.html" class="btn-primary">Aktivera tillgång — 499 kr</a>
+      <a href="/gratis-test/" class="btn-secondary">Prova 10 frågor gratis</a>
+    </div>
+    <div class="hero-trust">
+      <span class="stars">★★★★★</span>
+      <span><strong>Tusentals kandidater</strong> förberedda genom CivicLearn-nätverket</span>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-book-wrap">
+      <img src="sverige-i-fokus.png" alt="Den officiella studiehandledningen Sverige i fokus — utbildningsmaterial till medborgarskapsprov">
+    </div>
+    <div class="hero-book-tag">
+      Frågorna bygger på<br>
+      <strong>Sverige i fokus</strong>
+    </div>
+  </div>
+</section>
+
+<!-- =============== BOOK SHOWCASE =============== -->
+<section class="book-showcase" id="boken">
+  <div class="book-inner">
+    <div class="book-image">
+      <img src="sverige-i-fokus.png" alt="Den officiella studiehandledningen Sverige i fokus — utbildningsmaterial till medborgarskapsprov">
+      <div class="book-image-caption">
+        <strong>Sverige i fokus</strong> · Utbildningsmaterial till medborgarskapsprov · Officiell studiehandledning
+      </div>
+    </div>
+    <div class="book-content">
+      <div class="book-eyebrow">Den officiella studiehandledningen</div>
+      <h2>Hela <em>Sverige i fokus</em> — fråga för fråga</h2>
+      <p>
+        Regeringen har publicerat <em>Sverige i fokus</em> som det officiella utbildningsmaterialet
+        för det nya samhällskunskapsprovet. Det är där proven kommer att hämta sitt innehåll —
+        och det är där vi har hämtat våra frågor.
+      </p>
+      <p>
+        Vi har systematiskt gått igenom alla 13 kapitel och formulerat 1000 övningsfrågor med
+        detaljerade förklaringar. Inga gissningar, inget filler — varje fråga är förankrad
+        i materialet. Och hela boken finns tillgänglig som lättnavigerad text inne i plattformen,
+        så du kan läsa direkt och öva direkt.
+      </p>
+      <div class="book-facts">
+        <div class="book-fact">
+          <div class="book-fact-num">1000</div>
+          <div class="book-fact-label">övningsfrågor med förklaringar</div>
+        </div>
+        <div class="book-fact">
+          <div class="book-fact-num">13</div>
+          <div class="book-fact-label">ämnen — ett per kapitel i boken</div>
+        </div>
+        <div class="book-fact">
+          <div class="book-fact-num">SV / EN</div>
+          <div class="book-fact-label">tvåspråkigt stöd genom hela testet</div>
+        </div>
+        <div class="book-fact">
+          <div class="book-fact-num">∞</div>
+          <div class="book-fact-label">livstidsåtkomst — ingen prenumeration</div>
+        </div>
+      </div>
+      <a href="https://civiclearn.com/sweden/checkout.html" class="book-cta">Börja träna nu</a>
+      <div class="book-cta-note">499 kr engångsbetalning · omedelbar aktivering · alla enheter</div>
+    </div>
+  </div>
+</section>
+
+<!-- =============== TOPICS GRID =============== -->
 <section class="section">
-  <div class="section-kicker">Officiella ämnesområden</div>
-  <h2 class="section-title">7 ämnen som testet omfattar</h2>
-  <p class="section-sub">
-    Enligt SOU 2025:1 ska tyngdpunkten ligga på kunskaper som behövs för att leva
-    och fungera i det svenska samhället, med fokus på demokrati och den demokratiska processen.
-  </p>
+  <div class="section-head">
+    <div class="section-kicker">13 ämnen — direkt från boken</div>
+    <h2 class="section-title">Allt som testas i samhällskunskapsprovet</h2>
+    <p class="section-lead">
+      Provets innehåll följer kapitelstrukturen i <em>Sverige i fokus</em>.
+      Vår plattform speglar samma struktur — du kan välja ett ämne i taget,
+      eller köra hela testet i en simulering.
+    </p>
+  </div>
 
   <div class="topics-grid">
     <div class="topic-card">
-      <div class="topic-num">Ämne 1 · 120 frågor</div>
-      <div class="topic-name">Historia och geografi</div>
-      <div class="topic-desc">Vikingatid till modern tid. Sveriges landskap, städer, klimat, nationella minoriteter.</div>
+      <div class="topic-num">01 <span>· Kapitel</span></div>
+      <div class="topic-name">Landet Sverige</div>
+      <div class="topic-desc">Geografi, landskap, klimat, befolkning, nationella minoriteter och språk.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 2 · 110 frågor</div>
-      <div class="topic-name">Kultur, traditioner och religion</div>
-      <div class="topic-desc">Midsommar, Lucia, jul, fika, allemansrätten, sekularism, Svenska kyrkan, Nobelpriset.</div>
+      <div class="topic-num">02 <span>· Kapitel</span></div>
+      <div class="topic-name">Sveriges demokratiska system</div>
+      <div class="topic-desc">Demokratins grunder, folkstyre, medborgerliga rättigheter och skyldigheter.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 3 · 120 frågor</div>
-      <div class="topic-name">Demokrati och styrelseskick</div>
-      <div class="topic-desc">Riksdagen, regeringen, val, kommuner, regioner, partier, monarkin, myndigheter.</div>
+      <div class="topic-num">03 <span>· Kapitel</span></div>
+      <div class="topic-name">Så här styrs Sverige</div>
+      <div class="topic-desc">Riksdag, regering, kommuner, regioner, myndigheter och statschefen.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 4 · 120 frågor</div>
-      <div class="topic-name">Lagar, rättigheter och jämlikhet</div>
-      <div class="topic-desc">Grundlagarna, mänskliga rättigheter, jämställdhet, barnkonventionen, diskriminering.</div>
+      <div class="topic-num">04 <span>· Kapitel</span></div>
+      <div class="topic-name">Politiska val och partier</div>
+      <div class="topic-desc">Valsystemet, riksdagspartierna, valkampanjer och politiska ideologier.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 5 · 115 frågor</div>
-      <div class="topic-name">Välfärd, integration och medborgarskap</div>
-      <div class="topic-desc">Sjukvård, utbildning, socialförsäkring, SFI, medborgarskapskrav, personnummer.</div>
+      <div class="topic-num">05 <span>· Kapitel</span></div>
+      <div class="topic-name">Lag och rätt</div>
+      <div class="topic-desc">Grundlagar, rättsväsendet, polis, åklagare, domstolar och brottsbekämpning.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 6 · 110 frågor</div>
-      <div class="topic-name">Ekonomi, arbete och miljö</div>
-      <div class="topic-desc">Skattesystemet, arbetsmarknaden, fackföreningar, företagande, klimatpolitik.</div>
+      <div class="topic-num">06 <span>· Kapitel</span></div>
+      <div class="topic-name">Mediernas roll</div>
+      <div class="topic-desc">Public service, källkritik, yttrandefrihet, sociala medier och desinformation.</div>
     </div>
     <div class="topic-card">
-      <div class="topic-num">Ämne 7 · 105 frågor</div>
-      <div class="topic-name">Media och Sverige i världen</div>
-      <div class="topic-desc">Public service, källkritik, EU-medlemskap, NATO, FN, Nordiskt samarbete.</div>
+      <div class="topic-num">07 <span>· Kapitel</span></div>
+      <div class="topic-name">Mänskliga rättigheter</div>
+      <div class="topic-desc">Barnkonventionen, jämställdhet, diskriminering, HBTQI och Europakonventionen.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">08 <span>· Kapitel</span></div>
+      <div class="topic-name">Arbetsmarknad och privatekonomi</div>
+      <div class="topic-desc">Anställning, fackföreningar, skatter, sparande, lån och kollektivavtal.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">09 <span>· Kapitel</span></div>
+      <div class="topic-name">Välfärdssamhället</div>
+      <div class="topic-desc">Sjukvård, utbildning, socialförsäkring, äldreomsorg och socialtjänst.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">10 <span>· Kapitel</span></div>
+      <div class="topic-name">Sveriges moderna historia</div>
+      <div class="topic-desc">1900-tal till idag: demokratisering, välfärdsbygge, EU-medlemskap.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">11 <span>· Kapitel</span></div>
+      <div class="topic-name">Sverige och omvärlden</div>
+      <div class="topic-desc">EU, Norden, FN, NATO, säkerhetspolitik och internationella relationer.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">12 <span>· Kapitel</span></div>
+      <div class="topic-name">En sekulär stat och ett mångreligiöst land</div>
+      <div class="topic-desc">Religionsfrihet, Svenska kyrkan, sekularism och religiös mångfald.</div>
+    </div>
+    <div class="topic-card">
+      <div class="topic-num">13 <span>· Kapitel</span></div>
+      <div class="topic-name">Traditioner och högtider</div>
+      <div class="topic-desc">Midsommar, Lucia, jul, allemansrätten, fika och svensk vardagskultur.</div>
+    </div>
+  </div>
+
+  <div class="topics-totals">
+    <span><strong>1000 frågor</strong> totalt — fördelade över alla 13 ämnen, med detaljerade förklaringar på svenska och engelska.</span>
+    <a href="https://civiclearn.com/sweden/checkout.html" class="topics-totals-cta">Aktivera nu →</a>
+  </div>
+</section>
+
+<!-- =============== FEATURES =============== -->
+<section class="features-section">
+  <div class="section">
+    <div class="section-head">
+      <div class="section-kicker">Plattformen</div>
+      <h2 class="section-title">Vad du får tillgång till</h2>
+      <p class="section-lead">
+        Mer än bara en frågebank — ett komplett träningsprogram som följer dig från första frågan till provdagen.
+      </p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feat">
+        <div class="feat-icon">A</div>
+        <div class="feat-title">Boken som referens</div>
+        <div class="feat-text">Hela <em>Sverige i fokus</em> integrerad i plattformen som lättnavigerad text. Läs och öva sida vid sida.</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">B</div>
+        <div class="feat-title">Träna ämne för ämne</div>
+        <div class="feat-text">Välj ett av de 13 ämnena och öva i din egen takt. Varje fråga har en förklaring som hänvisar till boken.</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">C</div>
+        <div class="feat-title">Realistiska simuleringar</div>
+        <div class="feat-text">Provsimulering med tidsgräns och godkänt-gräns — så vet du exakt var du står inför provdagen.</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">D</div>
+        <div class="feat-title">Tvåspråkigt SV / EN</div>
+        <div class="feat-text">Alla 1000 frågor, svar och förklaringar på både svenska och engelska. Byt språk när du vill.</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">E</div>
+        <div class="feat-title">Framsteg per ämne</div>
+        <div class="feat-text">Mastery-indikator för varje ämne, estimerat provresultat, studietid och dagsstreak.</div>
+      </div>
+      <div class="feat">
+        <div class="feat-icon">F</div>
+        <div class="feat-title">Snabbtest + flashcards</div>
+        <div class="feat-text">5-frågors snabbtest eller bläddra kort per ämne — perfekt för korta stunder mellan andra saker.</div>
+      </div>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="section-kicker">Plattformen</div>
-  <h2 class="section-title">Vad du får tillgång till</h2>
+<!-- =============== PRICING =============== -->
+<section class="pricing">
+  <div class="pricing-inner">
+    <div class="section-head">
+      <div class="section-kicker">Priser</div>
+      <h2 class="section-title">Engångsbetalning. Livstidsåtkomst.</h2>
+      <p class="section-lead">Inga abonnemang. Inga dolda avgifter. Du betalar en gång och får tillgång tills du klarat provet — och därefter.</p>
+    </div>
 
-  <div class="features">
-    <div class="feat">
-      <div class="feat-label">Test per ämne</div>
-      <div class="feat-title">Med förklaringar</div>
-      <div class="feat-text">Välj ämne och öva steg för steg. Varje fråga har en förklaring. Fel svar kommer tillbaka tills du behärskar dem.</div>
+    <div class="pricing-toggle" role="tablist">
+      <button class="active" data-plan="solo" type="button">Samhällskunskap</button>
+      <button data-plan="bundle" type="button">+ Språktest <span class="save-badge">Spara 199 kr</span></button>
     </div>
-    <div class="feat">
-      <div class="feat-label">Provsimulering</div>
-      <div class="feat-title">25 frågor, 45 minuter</div>
-      <div class="feat-text">Simulera riktiga provförhållanden med tidsgräns och 80 % godkänt-gräns.</div>
+
+    <div class="pricing-card">
+      <div class="pricing-top">
+        <div class="pricing-tag" id="pricing-tag">Samhällskunskap</div>
+        <div class="pricing-amount"><span id="pricing-amount-num">499</span><span class="currency">kr</span></div>
+        <div class="pricing-period">Engångsbetalning · livstidsåtkomst</div>
+        <div class="pricing-saving" id="pricing-saving">499 + 699 = 1 198 kr → du betalar 999 kr</div>
+      </div>
+
+      <div class="pricing-body">
+        <ul class="feature-list">
+          <li>1000 frågor från <em>Sverige i fokus</em> med förklaringar</li>
+          <li>Hela studiehandledningen integrerad som HTML-text</li>
+          <li>13 ämnen som speglar bokens kapitelstruktur</li>
+          <li>Realistiska provsimuleringar med tidsgräns</li>
+          <li>Tvåspråkigt: svenska och engelska genomgående</li>
+          <li>Framsteg per ämne, statistik och historik</li>
+          <li>Flashcards och snabbtest för korta stunder</li>
+          <li>Tillgång på dator, surfplatta och mobil</li>
+          <li>Omedelbar aktivering efter betalning</li>
+          <li class="bundle-extra">+ SvenskaProv: 10 språksimuleringar (B1 läs/lyssna, A2 skriv/tal)</li>
+          <li class="bundle-extra">+ AI-bedömning av skriftliga och muntliga svar</li>
+          <li class="bundle-extra">+ Allt du behöver för båda kraven — i ett paket</li>
+        </ul>
+        <a href="https://civiclearn.com/sweden/checkout.html" class="pricing-cta" id="pricing-cta">Aktivera nu — 499 kr</a>
+      </div>
     </div>
-    <div class="feat">
-      <div class="feat-label">Tvåspråkig</div>
-      <div class="feat-title">Svenska + engelska</div>
-      <div class="feat-text">Alla frågor, svar och förklaringar på båda språken. Byt med ett klick.</div>
+    <p class="pricing-guarantee">
+      <strong>Trygg betalning</strong> via Stripe · Visa, Mastercard, Apple Pay, Google Pay, Klarna
+    </p>
+  </div>
+</section>
+
+<!-- =============== FAQ =============== -->
+<section class="faq-section">
+  <div class="section section-narrow">
+    <div class="section-head">
+      <div class="section-kicker">Vanliga frågor</div>
+      <h2 class="section-title">Det folk brukar undra över</h2>
     </div>
-    <div class="feat">
-      <div class="feat-label">Dashboard</div>
-      <div class="feat-title">Framsteg i realtid</div>
-      <div class="feat-text">Mastery per ämne, estimerat provresultat, studietid och streak.</div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Vad är samhällskunskapsprovet?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Från 6 juni 2026 krävs ett godkänt samhällskunskapstest för att bli svensk medborgare. Provet prövar dina kunskaper om Sveriges historia, demokrati, lagar, samhälle och kultur. Det är ett av två nya krav — det andra är ett språktest. Provets innehåll utgår från den officiella studiehandledningen <em>Sverige i fokus</em>.</p>
+      </div>
     </div>
-    <div class="feat">
-      <div class="feat-label">Snabbtest + flashcards</div>
-      <div class="feat-title">Öva på 2 minuter</div>
-      <div class="feat-text">5 slumpmässiga frågor eller bläddra kort per ämne — perfekt för korta stunder.</div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Är era frågor samma som i det officiella provet?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Det officiella provet är inte publicerat — det lanseras med de nya kraven 6 juni 2026 och utvecklas av Göteborgs universitet på uppdrag av UHR. Våra 1000 frågor är direkt utformade utifrån <em>Sverige i fokus</em>, samma material som proven kommer att hämta sitt innehåll från. Vi är inte den svenska staten, men vi har förankrat varje fråga i den officiella källan.</p>
+      </div>
     </div>
-    <div class="feat">
-      <div class="feat-label">Alla enheter</div>
-      <div class="feat-title">Mobil, surfplatta, dator</div>
-      <div class="feat-text">Helt responsiv. Öva hemma, på bussen eller i kön.</div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Är det här en prenumeration?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Nej. 499 kr betalas en gång och ger livstidsåtkomst — ingen prenumeration, ingen autoförnyelse. Bundle-paketet (999 kr) inkluderar dessutom SvenskaProv för det svenska språktestet.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Finns frågorna på engelska?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Ja. Alla 1000 frågor, svarsalternativ och förklaringar finns på både svenska och engelska. Du kan växla språk när som helst i plattformen — perfekt om du fortfarande lär dig svenska men vill bygga upp samhällskunskaperna parallellt.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Hur lång tid tar förberedelsen?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>De flesta användare behöver två till fyra veckors regelbunden träning för att känna sig redo. Plattformen visar dig vilka ämnen du behärskar och vilka som behöver mer arbete, så du kan fokusera där det räknas. Vi rekommenderar att du börjar i god tid innan du planerar att ansöka om medborgarskap.</p>
+      </div>
+    </div>
+
+    <div class="faq-item">
+      <div class="faq-question">
+        <span>Vad händer efter betalningen?</span>
+        <span class="faq-toggle">+</span>
+      </div>
+      <div class="faq-answer">
+        <p>Du skapar ett lösenord direkt och loggar in omedelbart. Inga väntetider, ingen verifiering — du är inne i plattformen inom 30 sekunder och kan börja träna direkt på samhällskunskapsprovet.</p>
+      </div>
     </div>
   </div>
 </section>
 
-<div class="price-strip">
-  <div class="price-inner">
-    <div class="price-left">
-      <h3>Premium-tillgång</h3>
-      <p>800 frågor i 7 ämnen med förklaringar. Simuleringar, flashcards, framsteg i realtid. Livstidsåtkomst — inget abonnemang.</p>
-    </div>
-    <div class="price-right">
-      <div class="price-amount">499 kr</div>
-      <div class="price-sub">Engångsbetalning</div>
-      <a href="https://civiclearn.com/sweden/checkout.html" class="price-btn">Aktivera nu</a>
-      <a href="https://civiclearn.com/sweden/checkout.html?plan=bundle" class="bundle-link">+ SvenskaProv (språktest) = 999 kr — spara 199 kr</a>
-    </div>
+<!-- =============== FINAL CTA =============== -->
+<section class="final-cta">
+  <div class="final-cta-inner">
+    <h2>Börja träna inför samhällskunskapsprovet idag</h2>
+    <p>1000 frågor från <em>Sverige i fokus</em>. 13 ämnen. Tvåspråkigt SV/EN. Engångsbetalning, livstidsåtkomst.</p>
+    <a href="https://civiclearn.com/sweden/checkout.html" class="btn-primary">Aktivera tillgång — 499 kr</a>
   </div>
-</div>
+</section>
 
+<!-- =============== FOOTER =============== -->
 <footer class="footer">
-  <div>© 2026 samhallskunskapsprov.se · powered by <a href="https://civiclearn.com">CivicLearn</a></div>
-  <div>
-    <a href="mailto:support@civiclearn.com">Kontakt</a>
+  <div class="footer-inner">
+    <div class="footer-brand">© 2026 <strong>Samhällskunskapsprov.se</strong> — medlem i CivicLearn-nätverket</div>
+    <div>
+      <a href="/gratis-test/">Gratis test</a>
+      <a href="/artiklar/">Artiklar</a>
+      <a href="mailto:support@civiclearn.com">Kontakt</a>
+      <a href="/policyer/">Policyer</a>
+    </div>
   </div>
 </footer>
+
+<!-- =============== SCRIPTS =============== -->
+<script>
+// Countdown to 6 juni 2026
+(function(){
+  const target = new Date("2026-06-06T00:00:00").getTime();
+  const num = document.getElementById("countdown-num");
+  const text = document.getElementById("countdown-text");
+  const days = Math.max(0, Math.ceil((target - Date.now()) / 86400000));
+  if (days > 0) {
+    num.textContent = days;
+  } else {
+    num.textContent = "✓";
+    text.innerHTML = '<strong>Samhällskunskapsprovet</strong> är nu obligatoriskt för svenskt medborgarskap <span class="countdown-pill">Aktivt</span>';
+  }
+})();
+
+// Pricing toggle
+(function(){
+  const buttons = document.querySelectorAll(".pricing-toggle button");
+  const tag = document.getElementById("pricing-tag");
+  const amount = document.getElementById("pricing-amount-num");
+  const saving = document.getElementById("pricing-saving");
+  const cta = document.getElementById("pricing-cta");
+  const extras = document.querySelectorAll(".feature-list .bundle-extra");
+
+  function setPlan(plan) {
+    buttons.forEach(b => b.classList.toggle("active", b.dataset.plan === plan));
+    if (plan === "bundle") {
+      tag.textContent = "Samhällskunskap + Språktest";
+      amount.textContent = "999";
+      saving.classList.add("visible");
+      cta.textContent = "Aktivera nu — 999 kr";
+      cta.href = "https://civiclearn.com/sweden/checkout.html?plan=bundle";
+      extras.forEach(el => el.classList.add("visible"));
+    } else {
+      tag.textContent = "Samhällskunskap";
+      amount.textContent = "499";
+      saving.classList.remove("visible");
+      cta.textContent = "Aktivera nu — 499 kr";
+      cta.href = "https://civiclearn.com/sweden/checkout.html";
+      extras.forEach(el => el.classList.remove("visible"));
+    }
+  }
+  buttons.forEach(b => b.addEventListener("click", () => setPlan(b.dataset.plan)));
+})();
+
+// FAQ accordion
+document.querySelectorAll(".faq-item").forEach(item => {
+  item.addEventListener("click", () => {
+    document.querySelectorAll(".faq-item").forEach(i => {
+      if (i !== item) i.classList.remove("open");
+    });
+    item.classList.toggle("open");
+  });
+});
+</script>
 
 </body>
 </html>
